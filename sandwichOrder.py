@@ -139,7 +139,7 @@ while isContinue:
   elif isSandwich == False and isDrink == False:
     print("Your order is some " + str(order[fryIndex].lower()) + " fries and " + str(order[ketchupIndex].lower()) + " ketchup packets. Your final cost is $" + str(totalCost))
   elif isDrink == False and isFries == False:
-    print("Your order is a " + str(order[sandwichIndex].lower()) + " sandwich with " + str(order[ketchupIndex].lower()) + " ketchup packets. Your final cost is $" + str(totalCost))
+    print("Your order is a " + str(order[sandwichIndex].lower()) + " sandwich with " + str(order[ketchupIndex]) + " ketchup packets. Your final cost is $" + str(totalCost))
   elif isSandwich == False and isFries == False:
     print("Your order is a " + str(order[drinkIndex].lower()) + " drink and " + str(order[ketchupIndex]) + " ketchup packets. Your final cost is $" + str(totalCost))
   elif isSandwich == False:
