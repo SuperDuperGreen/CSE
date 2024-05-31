@@ -89,6 +89,7 @@ while noAnswer:
   # quits the game
   elif userChoice.lower() == "quit":
     os.system('cls')
+    load()
     print("So long!")
     quit()
   # makes sure that the program doesn't crash due to the user choice being misspelled or not existing
